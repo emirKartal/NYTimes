@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct StoryModel: Codable {
+struct StoryModel: Codable, Equatable {
     let status: String?
     let copyright: String?
     let section: String?
@@ -16,7 +16,7 @@ struct StoryModel: Codable {
     let results: [StoryResultModel]?
 }
 
-struct StoryResultModel: Codable {
+struct StoryResultModel: Codable, Equatable {
     let section: String?
     let subsection: String?
     let title: String?

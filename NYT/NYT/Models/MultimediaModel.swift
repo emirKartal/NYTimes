@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct MultimediaModel: Codable {
+struct MultimediaModel: Codable , Equatable{
     let url: String?
     let format: String?
     let height: Int?

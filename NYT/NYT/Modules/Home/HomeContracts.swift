@@ -17,7 +17,7 @@ protocol HomeViewModelDelegate: AnyObject {
     func navigate(to route: HomeRouter)
 }
 
-enum HomeViewModelOutput {
+enum HomeViewModelOutput: Equatable {
     case isLoading(Bool)
     case showStories([StoryResultModel])
     case showError(String)
