@@ -24,8 +24,7 @@ class RootRouter {
     }
 
     func loadMainAppStructure() {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+        let controller = HomeBuilder.make(viewModel: HomeViewModel())
         setRootViewController(controller: controller, animatedWithOptions: nil)
     }
 }

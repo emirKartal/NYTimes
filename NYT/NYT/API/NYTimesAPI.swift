@@ -30,7 +30,14 @@ extension NYTimesAPI: TargetType {
     }
     
     var sampleData: Data {
-        return Data()
+        do{
+            guard let url = Bundle.main.url(forResource: "StoryMock", withExtension: "json") else { return Data() }
+            let data = try Data(contentsOf: url)
+            return data
+        }catch{
+            print(error)
+            return Data()
+        }
     }
     
     var task: Task {
