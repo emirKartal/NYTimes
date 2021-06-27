@@ -99,7 +99,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MaG-L9-x3H">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MaG-L9-x3H">
                                 <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Lz-bW-77q">
@@ -123,8 +123,8 @@
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vQS-9L-glh">
-                                                <rect key="frame" x="358.5" y="221.5" width="35.5" height="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vQS-9L-glh">
+                                                <rect key="frame" x="20" y="221.5" width="374" height="17"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -146,6 +146,7 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="CdU-Zm-Vng" secondAttribute="trailing" constant="20" id="3Ye-rz-RuV"/>
+                                            <constraint firstItem="vQS-9L-glh" firstAttribute="leading" secondItem="0Lz-bW-77q" secondAttribute="leading" constant="20" id="5IR-ie-1E2"/>
                                             <constraint firstItem="v8C-96-h8F" firstAttribute="leading" secondItem="0Lz-bW-77q" secondAttribute="leading" id="5bL-7A-7h4"/>
                                             <constraint firstAttribute="trailing" secondItem="D10-RF-PAC" secondAttribute="trailing" constant="20" id="6J0-8o-q2T"/>
                                             <constraint firstAttribute="bottom" secondItem="D10-RF-PAC" secondAttribute="bottom" constant="40" id="7tv-Sa-zcE"/>
