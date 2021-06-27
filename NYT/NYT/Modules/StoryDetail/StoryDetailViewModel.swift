@@ -8,7 +8,7 @@
 import Foundation
 
 final class StoryDetailViewModel: StoryDetailViewModelProtocol {
-    var delegate: StoryDetailViewModelDelegate?
+    weak var delegate: StoryDetailViewModelDelegate?
     private var storyDetail: StoryResultModel
     
     init(storyDetail: StoryResultModel) {
@@ -19,8 +19,17 @@ final class StoryDetailViewModel: StoryDetailViewModelProtocol {
         self.notify(.setStoryElements(self.storyDetail))
     }
     
+    func openWebView() {
+        let viewModel = WebviewViewModel()
+        navigate(to: .toWebView(viewModel))
+    }
+    
     private func notify(_ output: StoryDetailViewModelOutput) {
         delegate?.handleStoryDetailViewModelOutput(output)
+    }
+    
+    private func navigate(to route: StoryDetailRouter) {
+        delegate?.navigate(to: route)
     }
     
 }

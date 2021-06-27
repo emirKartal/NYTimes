@@ -10,9 +10,10 @@ import Foundation
 protocol StoryDetailViewModelProtocol {
     var delegate: StoryDetailViewModelDelegate? {get set}
     func setStory()
+    func openWebView()
 }
 
-protocol StoryDetailViewModelDelegate {
+protocol StoryDetailViewModelDelegate: AnyObject {
     func handleStoryDetailViewModelOutput(_ output: StoryDetailViewModelOutput)
     func navigate(to router: StoryDetailRouter)
 }
@@ -22,5 +23,5 @@ enum StoryDetailViewModelOutput {
 }
 
 enum StoryDetailRouter {
-    
+    case toWebView(WebviewViewModelProtocol)
 }

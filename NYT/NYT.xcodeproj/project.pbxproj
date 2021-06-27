@@ -42,6 +42,10 @@
 		30B505772688ED9F00F52E2B /* StoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B505762688ED9F00F52E2B /* StoryDetailViewModel.swift */; };
 		30B505792688EDAD00F52E2B /* StoryDetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B505782688EDAD00F52E2B /* StoryDetailBuilder.swift */; };
 		30B5057B268905C800F52E2B /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5057A268905C800F52E2B /* Spinner.swift */; };
+		30B5057E2689308C00F52E2B /* WebviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5057D2689308C00F52E2B /* WebviewController.swift */; };
+		30B50580268930A100F52E2B /* WebviewContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5057F268930A100F52E2B /* WebviewContracts.swift */; };
+		30B50582268930BE00F52E2B /* WebviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B50581268930BE00F52E2B /* WebviewViewModel.swift */; };
+		30B50584268930CC00F52E2B /* WebviewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B50583268930CC00F52E2B /* WebviewBuilder.swift */; };
 		84384D95DDACFB62E1E6ECBF /* Pods_NYT_NYTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F99B6EBF118A64EA9EAE43 /* Pods_NYT_NYTUITests.framework */; };
 		CF23E0DB052752FF9A99BBD7 /* Pods_NYT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF000DA2B6BFA8A19A133D19 /* Pods_NYT.framework */; };
 /* End PBXBuildFile section */
@@ -106,6 +110,10 @@
 		30B505762688ED9F00F52E2B /* StoryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailViewModel.swift; sourceTree = "<group>"; };
 		30B505782688EDAD00F52E2B /* StoryDetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailBuilder.swift; sourceTree = "<group>"; };
 		30B5057A268905C800F52E2B /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		30B5057D2689308C00F52E2B /* WebviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewController.swift; sourceTree = "<group>"; };
+		30B5057F268930A100F52E2B /* WebviewContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewContracts.swift; sourceTree = "<group>"; };
+		30B50581268930BE00F52E2B /* WebviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewViewModel.swift; sourceTree = "<group>"; };
+		30B50583268930CC00F52E2B /* WebviewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewBuilder.swift; sourceTree = "<group>"; };
 		8A2E1DFACCEA4B9613359FFA /* Pods-NYTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTTests.release.xcconfig"; path = "Target Support Files/Pods-NYTTests/Pods-NYTTests.release.xcconfig"; sourceTree = "<group>"; };
 		95F99B6EBF118A64EA9EAE43 /* Pods_NYT_NYTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYT_NYTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96409398BED33E37722F97FF /* Pods-NYT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYT.release.xcconfig"; path = "Target Support Files/Pods-NYT/Pods-NYT.release.xcconfig"; sourceTree = "<group>"; };
@@ -217,6 +225,7 @@
 				30B5056E2688E85700F52E2B /* NavigationController */,
 				30B5053826877A6900F52E2B /* Home */,
 				30B505712688EA9A00F52E2B /* StoryDetail */,
+				30B5057C2689302100F52E2B /* StoryWebview */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -349,6 +358,17 @@
 				30B505782688EDAD00F52E2B /* StoryDetailBuilder.swift */,
 			);
 			path = StoryDetail;
+			sourceTree = "<group>";
+		};
+		30B5057C2689302100F52E2B /* StoryWebview */ = {
+			isa = PBXGroup;
+			children = (
+				30B5057F268930A100F52E2B /* WebviewContracts.swift */,
+				30B50581268930BE00F52E2B /* WebviewViewModel.swift */,
+				30B5057D2689308C00F52E2B /* WebviewController.swift */,
+				30B50583268930CC00F52E2B /* WebviewBuilder.swift */,
+			);
+			path = StoryWebview;
 			sourceTree = "<group>";
 		};
 		5AB7BC6E6D47AA7525EE397F /* Pods */ = {
@@ -624,13 +644,17 @@
 				30B5053E26877CB800F52E2B /* RootRouter.swift in Sources */,
 				30B505492687A00600F52E2B /* ServiceProtocol.swift in Sources */,
 				30B505692688CF3700F52E2B /* HomeTableViewCell.swift in Sources */,
+				30B5057E2689308C00F52E2B /* WebviewController.swift in Sources */,
 				30B5056B2688CFDD00F52E2B /* HomeCellViewModel.swift in Sources */,
+				30B50580268930A100F52E2B /* WebviewContracts.swift in Sources */,
+				30B50584268930CC00F52E2B /* WebviewBuilder.swift in Sources */,
 				30B505662687D60600F52E2B /* HomeBuilder.swift in Sources */,
 				30B505512687C11F00F52E2B /* StoryModel.swift in Sources */,
 				30B5055B2687D43A00F52E2B /* MultimediaModel.swift in Sources */,
 				309540F126866FB600D6D621 /* HomeViewController.swift in Sources */,
 				30B505622687D5EB00F52E2B /* HomeContracts.swift in Sources */,
 				309540ED26866FB600D6D621 /* AppDelegate.swift in Sources */,
+				30B50582268930BE00F52E2B /* WebviewViewModel.swift in Sources */,
 				30B505732688EAFB00F52E2B /* StoryDetailViewController.swift in Sources */,
 				30B5054026879C4B00F52E2B /* StatusCodePlugin.swift in Sources */,
 				30B5054D2687A0B200F52E2B /* Globals.swift in Sources */,

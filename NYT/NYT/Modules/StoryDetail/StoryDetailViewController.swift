@@ -43,6 +43,7 @@ final class StoryDetailViewController: UIViewController {
     }
     
     @IBAction func seeMoreAct(_ sender: Any) {
+        viewModel.openWebView()
     }
     
 }
@@ -57,6 +58,11 @@ extension StoryDetailViewController: StoryDetailViewModelDelegate {
     }
     
     func navigate(to router: StoryDetailRouter) {
-        
+        switch router {
+        case .toWebView(let viewModel):
+            let webVC = WebviewBuilder.make(viewModel: viewModel)
+            webVC.modalPresentationStyle = .overFullScreen
+            self.present(webVC, animated: true, completion: nil)
+        }
     }
 }

@@ -9,7 +9,7 @@ import Foundation
 
 final class HomeViewModel: HomeViewModelProtocol {
     private var service: NYTimesStoryService!
-    var delegate: HomeViewModelDelegate?
+    weak var delegate: HomeViewModelDelegate?
     
     init(isMock: Bool = false) {
         self.service = NYTimesStoryService(isMock: isMock)
