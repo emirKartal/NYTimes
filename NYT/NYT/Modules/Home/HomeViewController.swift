@@ -56,6 +56,7 @@ extension HomeViewController: HomeViewModelDelegate {
     func handleHomeViewModelOutput(_ output: HomeViewModelOutput) {
         switch output {
         case .isLoading(let isLoading):
+            isLoading ? Spinner.start() :Spinner.stop()
             break
         case .showStories(let storyList):
             self.storyList = storyList

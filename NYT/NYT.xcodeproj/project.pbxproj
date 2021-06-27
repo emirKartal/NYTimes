@@ -41,6 +41,7 @@
 		30B505752688ED8B00F52E2B /* StoryDetailContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B505742688ED8B00F52E2B /* StoryDetailContracts.swift */; };
 		30B505772688ED9F00F52E2B /* StoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B505762688ED9F00F52E2B /* StoryDetailViewModel.swift */; };
 		30B505792688EDAD00F52E2B /* StoryDetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B505782688EDAD00F52E2B /* StoryDetailBuilder.swift */; };
+		30B5057B268905C800F52E2B /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5057A268905C800F52E2B /* Spinner.swift */; };
 		84384D95DDACFB62E1E6ECBF /* Pods_NYT_NYTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F99B6EBF118A64EA9EAE43 /* Pods_NYT_NYTUITests.framework */; };
 		CF23E0DB052752FF9A99BBD7 /* Pods_NYT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF000DA2B6BFA8A19A133D19 /* Pods_NYT.framework */; };
 /* End PBXBuildFile section */
@@ -104,6 +105,7 @@
 		30B505742688ED8B00F52E2B /* StoryDetailContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailContracts.swift; sourceTree = "<group>"; };
 		30B505762688ED9F00F52E2B /* StoryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailViewModel.swift; sourceTree = "<group>"; };
 		30B505782688EDAD00F52E2B /* StoryDetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailBuilder.swift; sourceTree = "<group>"; };
+		30B5057A268905C800F52E2B /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		8A2E1DFACCEA4B9613359FFA /* Pods-NYTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTTests.release.xcconfig"; path = "Target Support Files/Pods-NYTTests/Pods-NYTTests.release.xcconfig"; sourceTree = "<group>"; };
 		95F99B6EBF118A64EA9EAE43 /* Pods_NYT_NYTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYT_NYTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96409398BED33E37722F97FF /* Pods-NYT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYT.release.xcconfig"; path = "Target Support Files/Pods-NYT/Pods-NYT.release.xcconfig"; sourceTree = "<group>"; };
@@ -274,6 +276,7 @@
 				30B5053D26877CB800F52E2B /* RootRouter.swift */,
 				30B5054426879CE400F52E2B /* Decoders.swift */,
 				30B5054C2687A0B200F52E2B /* Globals.swift */,
+				30B5057A268905C800F52E2B /* Spinner.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -611,6 +614,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30B505642687D5FA00F52E2B /* HomeViewModel.swift in Sources */,
+				30B5057B268905C800F52E2B /* Spinner.swift in Sources */,
 				30B5056D2688D2F100F52E2B /* ImageViewExtension.swift in Sources */,
 				30B505772688ED9F00F52E2B /* StoryDetailViewModel.swift in Sources */,
 				30B505752688ED8B00F52E2B /* StoryDetailContracts.swift in Sources */,
