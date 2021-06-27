@@ -31,6 +31,11 @@ final class HomeViewModel: HomeViewModelProtocol {
         }
     }
     
+    func selectStory(story: StoryResultModel) {
+        let viewModel = StoryDetailViewModel(storyDetail: story)
+        navigate(to: .toStoryDetail(viewModel))
+    }
+    
     private func notify(_ output: HomeViewModelOutput) {
         delegate?.handleHomeViewModelOutput(output)
     }

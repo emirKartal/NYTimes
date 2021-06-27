@@ -10,6 +10,7 @@ import Foundation
 protocol HomeViewModelProtocol {
     var delegate: HomeViewModelDelegate? {get set}
     func getStories()
+    func selectStory(story: StoryResultModel)
 }
 
 protocol HomeViewModelDelegate: AnyObject {
@@ -24,5 +25,5 @@ enum HomeViewModelOutput: Equatable {
 }
 
 enum HomeRouter {
-    case toStoryDetail
+    case toStoryDetail(StoryDetailViewModelProtocol)
 }

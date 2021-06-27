@@ -31,7 +31,6 @@ final class HomeViewController: UIViewController {
     private func configure() {
         self.title = "New York Times"
     }
-    
 }
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
@@ -45,6 +44,11 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         let cellViewModel = HomeCellViewModel(storyModel: story)
         cell.populateCell(with: cellViewModel)
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedStory = storyList[indexPath.row]
+        viewModel.selectStory(story: selectedStory)
     }
 }
 
@@ -64,6 +68,10 @@ extension HomeViewController: HomeViewModelDelegate {
     }
     
     func navigate(to route: HomeRouter) {
-        
+        switch route {
+        case .toStoryDetail(let viewModel):
+            let storyDetailVC = StoryDetailBuilder.make(viewModel: viewModel)
+            self.navigationController?.pushViewController(storyDetailVC, animated: true)
+        }
     }
 }

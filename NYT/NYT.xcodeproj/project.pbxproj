@@ -37,6 +37,10 @@
 		30B5056B2688CFDD00F52E2B /* HomeCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5056A2688CFDD00F52E2B /* HomeCellViewModel.swift */; };
 		30B5056D2688D2F100F52E2B /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5056C2688D2F100F52E2B /* ImageViewExtension.swift */; };
 		30B505702688E87A00F52E2B /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5056F2688E87A00F52E2B /* MainNavigationViewController.swift */; };
+		30B505732688EAFB00F52E2B /* StoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B505722688EAFB00F52E2B /* StoryDetailViewController.swift */; };
+		30B505752688ED8B00F52E2B /* StoryDetailContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B505742688ED8B00F52E2B /* StoryDetailContracts.swift */; };
+		30B505772688ED9F00F52E2B /* StoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B505762688ED9F00F52E2B /* StoryDetailViewModel.swift */; };
+		30B505792688EDAD00F52E2B /* StoryDetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B505782688EDAD00F52E2B /* StoryDetailBuilder.swift */; };
 		84384D95DDACFB62E1E6ECBF /* Pods_NYT_NYTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F99B6EBF118A64EA9EAE43 /* Pods_NYT_NYTUITests.framework */; };
 		CF23E0DB052752FF9A99BBD7 /* Pods_NYT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF000DA2B6BFA8A19A133D19 /* Pods_NYT.framework */; };
 /* End PBXBuildFile section */
@@ -96,6 +100,10 @@
 		30B5056A2688CFDD00F52E2B /* HomeCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCellViewModel.swift; sourceTree = "<group>"; };
 		30B5056C2688D2F100F52E2B /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
 		30B5056F2688E87A00F52E2B /* MainNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
+		30B505722688EAFB00F52E2B /* StoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailViewController.swift; sourceTree = "<group>"; };
+		30B505742688ED8B00F52E2B /* StoryDetailContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailContracts.swift; sourceTree = "<group>"; };
+		30B505762688ED9F00F52E2B /* StoryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailViewModel.swift; sourceTree = "<group>"; };
+		30B505782688EDAD00F52E2B /* StoryDetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailBuilder.swift; sourceTree = "<group>"; };
 		8A2E1DFACCEA4B9613359FFA /* Pods-NYTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTTests.release.xcconfig"; path = "Target Support Files/Pods-NYTTests/Pods-NYTTests.release.xcconfig"; sourceTree = "<group>"; };
 		95F99B6EBF118A64EA9EAE43 /* Pods_NYT_NYTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYT_NYTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96409398BED33E37722F97FF /* Pods-NYT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYT.release.xcconfig"; path = "Target Support Files/Pods-NYT/Pods-NYT.release.xcconfig"; sourceTree = "<group>"; };
@@ -206,6 +214,7 @@
 				30B5053926877A9400F52E2B /* Launch */,
 				30B5056E2688E85700F52E2B /* NavigationController */,
 				30B5053826877A6900F52E2B /* Home */,
+				30B505712688EA9A00F52E2B /* StoryDetail */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -326,6 +335,17 @@
 				30B5056F2688E87A00F52E2B /* MainNavigationViewController.swift */,
 			);
 			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		30B505712688EA9A00F52E2B /* StoryDetail */ = {
+			isa = PBXGroup;
+			children = (
+				30B505742688ED8B00F52E2B /* StoryDetailContracts.swift */,
+				30B505762688ED9F00F52E2B /* StoryDetailViewModel.swift */,
+				30B505722688EAFB00F52E2B /* StoryDetailViewController.swift */,
+				30B505782688EDAD00F52E2B /* StoryDetailBuilder.swift */,
+			);
+			path = StoryDetail;
 			sourceTree = "<group>";
 		};
 		5AB7BC6E6D47AA7525EE397F /* Pods */ = {
@@ -592,6 +612,8 @@
 			files = (
 				30B505642687D5FA00F52E2B /* HomeViewModel.swift in Sources */,
 				30B5056D2688D2F100F52E2B /* ImageViewExtension.swift in Sources */,
+				30B505772688ED9F00F52E2B /* StoryDetailViewModel.swift in Sources */,
+				30B505752688ED8B00F52E2B /* StoryDetailContracts.swift in Sources */,
 				30B5054B2687A04100F52E2B /* NYTimesAPI.swift in Sources */,
 				30B5054726879E5E00F52E2B /* ErrorModel.swift in Sources */,
 				30B5054526879CE400F52E2B /* Decoders.swift in Sources */,
@@ -605,8 +627,10 @@
 				309540F126866FB600D6D621 /* HomeViewController.swift in Sources */,
 				30B505622687D5EB00F52E2B /* HomeContracts.swift in Sources */,
 				309540ED26866FB600D6D621 /* AppDelegate.swift in Sources */,
+				30B505732688EAFB00F52E2B /* StoryDetailViewController.swift in Sources */,
 				30B5054026879C4B00F52E2B /* StatusCodePlugin.swift in Sources */,
 				30B5054D2687A0B200F52E2B /* Globals.swift in Sources */,
+				30B505792688EDAD00F52E2B /* StoryDetailBuilder.swift in Sources */,
 				30B5055E2687D4F300F52E2B /* HomePresentationModel.swift in Sources */,
 				30B5054326879C7F00F52E2B /* ErrorProtocol.swift in Sources */,
 				30B505702688E87A00F52E2B /* MainNavigationViewController.swift in Sources */,
