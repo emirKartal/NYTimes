@@ -51,7 +51,7 @@ extension WebviewController: WebviewViewModelDelegate {
             webview.load(urlRequest)
             break
         case .showError(let errorMessage):
-            print(errorMessage)
+            showErrorAlert(errorMessage: errorMessage)
             break
         }
     }

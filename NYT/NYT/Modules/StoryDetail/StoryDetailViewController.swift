@@ -51,7 +51,7 @@ final class StoryDetailViewController: UIViewController {
                 self.viewModel.openWebView(urlString: self.detailUrlString!)
             }
         }else {
-            //Error message
+            showErrorAlert(errorMessage: "URL not found!")
         }
     }
     

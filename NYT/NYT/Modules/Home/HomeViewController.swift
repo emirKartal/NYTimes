@@ -63,7 +63,7 @@ extension HomeViewController: HomeViewModelDelegate {
             homeTableView.reloadData()
             break
         case .showError(let errorMessage):
-            print(errorMessage)
+            showErrorAlert(errorMessage: errorMessage)
             break
         }
     }
