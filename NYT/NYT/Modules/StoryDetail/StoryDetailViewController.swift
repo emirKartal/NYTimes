@@ -18,6 +18,7 @@ final class StoryDetailViewController: UIViewController {
             viewModel.delegate = self
         }
     }
+    private var detailUrlString: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +33,7 @@ final class StoryDetailViewController: UIViewController {
         titleLabel.text = storyDetail.title
         descriptionLabel.text = storyDetail.abstract
         authorLabel.text = storyDetail.byline
+        detailUrlString = storyDetail.url
         calculateConstraints(with: multimedia)
     }
     
@@ -43,7 +45,14 @@ final class StoryDetailViewController: UIViewController {
     }
     
     @IBAction func seeMoreAct(_ sender: Any) {
-        viewModel.openWebView()
+        if let _ = detailUrlString {
+            DispatchQueue.main.async { [weak self] in
+                guard let self = self else {return}
+                self.viewModel.openWebView(urlString: self.detailUrlString!)
+            }
+        }else {
+            //Error message
+        }
     }
     
 }

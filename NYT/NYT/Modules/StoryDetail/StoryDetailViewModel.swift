@@ -19,8 +19,8 @@ final class StoryDetailViewModel: StoryDetailViewModelProtocol {
         self.notify(.setStoryElements(self.storyDetail))
     }
     
-    func openWebView() {
-        let viewModel = WebviewViewModel()
+    func openWebView(urlString: String) {
+        let viewModel = WebviewViewModel(urlString: urlString)
         navigate(to: .toWebView(viewModel))
     }
     

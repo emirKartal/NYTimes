@@ -201,9 +201,42 @@
                     <view key="view" contentMode="scaleToFill" id="ZDg-p9-wuG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eko-TL-CUe">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGt-eb-YC0">
+                                <rect key="frame" x="354" y="54" width="40" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="irC-8J-gb7"/>
+                                    <constraint firstAttribute="height" constant="40" id="kiE-7A-xrM"/>
+                                </constraints>
+                                <state key="normal" image="close_icon"/>
+                                <connections>
+                                    <action selector="closeAct:" destination="9n1-Zh-Zyp" eventType="touchUpInside" id="vmY-Dl-6yg"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="oBY-mO-IzG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Eko-TL-CUe" firstAttribute="top" secondItem="ZDg-p9-wuG" secondAttribute="topMargin" id="5GS-OQ-UG9"/>
+                            <constraint firstItem="oBY-mO-IzG" firstAttribute="trailing" secondItem="Eko-TL-CUe" secondAttribute="trailing" id="M0z-uU-v9j"/>
+                            <constraint firstItem="oBY-mO-IzG" firstAttribute="bottom" secondItem="Eko-TL-CUe" secondAttribute="bottom" id="UTH-jk-8Ml"/>
+                            <constraint firstItem="NGt-eb-YC0" firstAttribute="top" secondItem="oBY-mO-IzG" secondAttribute="top" constant="10" id="rbe-mi-meU"/>
+                            <constraint firstItem="Eko-TL-CUe" firstAttribute="leading" secondItem="oBY-mO-IzG" secondAttribute="leading" id="uw3-hb-Zpp"/>
+                            <constraint firstItem="oBY-mO-IzG" firstAttribute="trailing" secondItem="NGt-eb-YC0" secondAttribute="trailing" constant="20" id="vp6-Gf-Ghn"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="webview" destination="Eko-TL-CUe" id="tIv-mb-o3f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fhf-1r-uDK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -229,6 +262,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="close_icon" width="25.5" height="25.5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

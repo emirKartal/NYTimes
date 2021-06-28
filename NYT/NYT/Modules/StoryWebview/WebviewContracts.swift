@@ -9,6 +9,8 @@ import Foundation
 
 protocol WebviewViewModelProtocol {
     var delegate: WebviewViewModelDelegate? {get set}
+    var detailUrlString: String {get set}
+    func load()
 }
 
 protocol WebviewViewModelDelegate: AnyObject {
@@ -16,5 +18,6 @@ protocol WebviewViewModelDelegate: AnyObject {
 }
 
 enum WebviewViewModelOutput {
-    case load(String)
+    case load(URL)
+    case showError(String)
 }

@@ -10,7 +10,7 @@ import Foundation
 protocol StoryDetailViewModelProtocol {
     var delegate: StoryDetailViewModelDelegate? {get set}
     func setStory()
-    func openWebView()
+    func openWebView(urlString: String)
 }
 
 protocol StoryDetailViewModelDelegate: AnyObject {
