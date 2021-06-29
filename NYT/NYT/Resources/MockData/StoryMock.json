@@ -1,0 +1,498 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2021 The New York Times Company. All Rights Reserved.",
+    "section": "home",
+    "last_updated": "2021-06-26T16:49:10-04:00",
+    "num_results": 45,
+    "results": [
+        {
+            "section": "us",
+            "subsection": "",
+            "title": "Engineer Warned of ‘Major Structural Damage’ at Florida Condo Complex",
+            "abstract": "A consultant in 2018 urged the managers to repair cracked columns and crumbling concrete. The work was finally about to get underway when the building collapsed.",
+            "url": "https://www.nytimes.com/2021/06/26/us/miami-building-collapse-investigation.html",
+            "uri": "nyt://article/c0b61f00-cf65-5536-98d3-79fb9db7949f",
+            "byline": "By Mike Baker, Anjali Singhvi and Patricia Mazzei",
+            "item_type": "Article",
+            "updated_date": "2021-06-26T16:46:32-04:00",
+            "created_date": "2021-06-26T05:30:53-04:00",
+            "published_date": "2021-06-26T05:30:53-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Surfside, Fla, Building Collapse (2021)",
+                "Buildings (Structures)",
+                "Concrete"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [
+                "Florida",
+                "Surfside (Fla)"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/26/world/26miami-mystery-promo/26miami-mystery-promo-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1149,
+                    "width": 1723,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Images from a 2018 report by structural engineer Frank Morabito on the Champlain Towers South condomium.",
+                    "copyright": "Morabito Consultants, via Town of Surfside"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/26/world/26miami-mystery-promo/26miami-mystery-promo-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Images from a 2018 report by structural engineer Frank Morabito on the Champlain Towers South condomium.",
+                    "copyright": "Morabito Consultants, via Town of Surfside"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/26/world/26miami-mystery-promo/26miami-mystery-promo-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Images from a 2018 report by structural engineer Frank Morabito on the Champlain Towers South condomium.",
+                    "copyright": "Morabito Consultants, via Town of Surfside"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/26/world/26miami-mystery-promo/26miami-mystery-promo-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Images from a 2018 report by structural engineer Frank Morabito on the Champlain Towers South condomium.",
+                    "copyright": "Morabito Consultants, via Town of Surfside"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/26/world/26miami-mystery-promo/26miami-mystery-promo-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Images from a 2018 report by structural engineer Frank Morabito on the Champlain Towers South condomium.",
+                    "copyright": "Morabito Consultants, via Town of Surfside"
+                }
+            ],
+            "short_url": "https://nyti.ms/3AalZe7"
+        },
+        {
+            "section": "us",
+            "subsection": "",
+            "title": "Anxious Residents of Sister Tower to Fallen Florida Condo Wonder: Stay or Go?",
+            "abstract": "The partly collapsed Champlain Towers South scared people who live in Champlain Towers North. But no one has ordered them to evacuate — yet.",
+            "url": "https://www.nytimes.com/2021/06/26/us/miami-building-collapse-neighbor-evacuations.html",
+            "uri": "nyt://article/f6830a74-5445-5883-8879-e291d4da6bb6",
+            "byline": "By Kimiko de Freytas-Tamura, Patricia Mazzei and Joseph B. Treaster",
+            "item_type": "Article",
+            "updated_date": "2021-06-26T16:40:18-04:00",
+            "created_date": "2021-06-26T15:55:13-04:00",
+            "published_date": "2021-06-26T15:55:13-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Surfside, Fla, Building Collapse (2021)",
+                "Buildings (Structures)"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [
+                "Florida",
+                "Surfside (Fla)"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/26/us/26miami-buildings1/merlin_189934884_3204db53-9733-41de-820c-88f7e3e6cb38-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1366,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The Champlain Towers North, center, among other high rise condominiums in Surfside, Fla. The mayor of Surfside said there are roughly 20 buildings with 12 stories that overlook the ocean in his town.",
+                    "copyright": "Scott McIntyre for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/26/us/26miami-buildings1/26miami-buildings1-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The Champlain Towers North, center, among other high rise condominiums in Surfside, Fla. The mayor of Surfside said there are roughly 20 buildings with 12 stories that overlook the ocean in his town.",
+                    "copyright": "Scott McIntyre for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/26/us/26miami-buildings1/26miami-buildings1-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The Champlain Towers North, center, among other high rise condominiums in Surfside, Fla. The mayor of Surfside said there are roughly 20 buildings with 12 stories that overlook the ocean in his town.",
+                    "copyright": "Scott McIntyre for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/26/us/26miami-buildings1/merlin_189934884_3204db53-9733-41de-820c-88f7e3e6cb38-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The Champlain Towers North, center, among other high rise condominiums in Surfside, Fla. The mayor of Surfside said there are roughly 20 buildings with 12 stories that overlook the ocean in his town.",
+                    "copyright": "Scott McIntyre for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/26/us/26miami-buildings1/merlin_189934884_3204db53-9733-41de-820c-88f7e3e6cb38-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The Champlain Towers North, center, among other high rise condominiums in Surfside, Fla. The mayor of Surfside said there are roughly 20 buildings with 12 stories that overlook the ocean in his town.",
+                    "copyright": "Scott McIntyre for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/2T7wWMw"
+        },
+        {
+            "section": "us",
+            "subsection": "politics",
+            "title": "How Deceptive Campaign Fund-Raising Ensnares Older People",
+            "abstract": "Older Americans, a critical source of political donations, often fall victim to aggressive and misleading digital practices. A broad Times analysis points to the scope of the problem.",
+            "url": "https://www.nytimes.com/2021/06/26/us/politics/recurring-donations-seniors.html",
+            "uri": "nyt://article/d1046baa-9882-55a3-96d7-f83fb82da95f",
+            "byline": "By Shane Goldmacher",
+            "item_type": "Article",
+            "updated_date": "2021-06-26T12:46:56-04:00",
+            "created_date": "2021-06-26T11:25:39-04:00",
+            "published_date": "2021-06-26T11:25:39-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Philanthropy",
+                "Campaign Finance",
+                "Elderly",
+                "Presidential Election of 2020",
+                "Rebates and Refunds",
+                "Computers and the Internet",
+                "Frauds and Swindling"
+            ],
+            "org_facet": [
+                "Democratic Party",
+                "Republican Party",
+                "ActBlue",
+                "WinRed",
+                "Democratic Congressional Campaign Committee",
+                "Republican National Committee"
+            ],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/26/us/politics/26donations-seniors-statement/26donations-seniors-statement-superJumbo-v3.jpg",
+                    "format": "superJumbo",
+                    "height": 1055,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "William W. Vaughan Jr.’s credit card statement is dominated by recurring donations to a variety of Republican candidates, processed through WinRed. Mr. Vaughan’s personal information has been redacted.",
+                    "copyright": ""
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/26/us/politics/26donations-seniors-statement/26donations-seniors-statement-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "William W. Vaughan Jr.’s credit card statement is dominated by recurring donations to a variety of Republican candidates, processed through WinRed. Mr. Vaughan’s personal information has been redacted.",
+                    "copyright": ""
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/26/us/politics/26donations-seniors-statement/26donations-seniors-statement-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "William W. Vaughan Jr.’s credit card statement is dominated by recurring donations to a variety of Republican candidates, processed through WinRed. Mr. Vaughan’s personal information has been redacted.",
+                    "copyright": ""
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/26/us/politics/26donations-seniors-statement/26donations-seniors-statement-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "William W. Vaughan Jr.’s credit card statement is dominated by recurring donations to a variety of Republican candidates, processed through WinRed. Mr. Vaughan’s personal information has been redacted.",
+                    "copyright": ""
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/26/us/politics/26donations-seniors-statement/26donations-seniors-statement-articleInline-v3.jpg",
+                    "format": "Normal",
+                    "height": 98,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "William W. Vaughan Jr.’s credit card statement is dominated by recurring donations to a variety of Republican candidates, processed through WinRed. Mr. Vaughan’s personal information has been redacted.",
+                    "copyright": ""
+                }
+            ],
+            "short_url": "https://nyti.ms/2StYMlT"
+        },
+        {
+            "section": "us",
+            "subsection": "",
+            "title": "Officer Injured in Capitol Riot Asks McCarthy to Disavow Lies About It",
+            "abstract": "Officer Michael Fanone, who was seriously injured by the pro-Trump mob, said he came away disappointed from his meeting with the top House Republican.",
+            "url": "https://www.nytimes.com/2021/06/25/us/kevin-mccarthy-capitol-riot-officer.html",
+            "uri": "nyt://article/1fbcb5bb-727b-501e-9041-a28bdba471ce",
+            "byline": "By Luke Broadwater",
+            "item_type": "Article",
+            "updated_date": "2021-06-26T10:57:42-04:00",
+            "created_date": "2021-06-25T19:58:39-04:00",
+            "published_date": "2021-06-25T19:58:39-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "United States Politics and Government",
+                "Storming of the US Capitol (Jan, 2021)",
+                "Demonstrations, Protests and Riots"
+            ],
+            "org_facet": [
+                "Republican Party",
+                "House of Representatives",
+                "United States Capitol Police"
+            ],
+            "per_facet": [
+                "McCarthy, Kevin (1965- )",
+                "Fanone, Michael",
+                "Dunn, Harry (1983- )",
+                "Trump, Donald J"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/25/us/politics/25dc-fanone-1/25dc-fanone-1-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Michael Fanone, left, a Washington police officer, and Officer Harry Dunn of the U.S. Capitol Police leaving a meeting with Representative Kevin McCarthy, the House minority leader, at the Capitol on Friday.",
+                    "copyright": "J. Scott Applewhite/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/25/us/politics/25dc-fanone-1/25dc-fanone-1-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Michael Fanone, left, a Washington police officer, and Officer Harry Dunn of the U.S. Capitol Police leaving a meeting with Representative Kevin McCarthy, the House minority leader, at the Capitol on Friday.",
+                    "copyright": "J. Scott Applewhite/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/25/us/politics/25dc-fanone-1/25dc-fanone-1-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Michael Fanone, left, a Washington police officer, and Officer Harry Dunn of the U.S. Capitol Police leaving a meeting with Representative Kevin McCarthy, the House minority leader, at the Capitol on Friday.",
+                    "copyright": "J. Scott Applewhite/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/25/us/politics/25dc-fanone-1/merlin_189891399_1d55fb5b-7de9-44a0-a916-bae3eda4a8cc-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Michael Fanone, left, a Washington police officer, and Officer Harry Dunn of the U.S. Capitol Police leaving a meeting with Representative Kevin McCarthy, the House minority leader, at the Capitol on Friday.",
+                    "copyright": "J. Scott Applewhite/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/25/us/politics/25dc-fanone-1/25dc-fanone-1-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Michael Fanone, left, a Washington police officer, and Officer Harry Dunn of the U.S. Capitol Police leaving a meeting with Representative Kevin McCarthy, the House minority leader, at the Capitol on Friday.",
+                    "copyright": "J. Scott Applewhite/Associated Press"
+                }
+            ],
+            "short_url": "https://nyti.ms/3qzu5sg"
+        },
+        {
+            "section": "health",
+            "subsection": "",
+            "title": "As Parents Forbid Covid Shots, Defiant Teenagers Seek Ways to Get Them",
+            "abstract": "Most medical consent laws require parental permission for minors to get a vaccine. Now some places are easing restrictions for Covid shots while others are proposing new ones.",
+            "url": "https://www.nytimes.com/2021/06/26/health/covid-vaccine-teens-consent.html",
+            "uri": "nyt://article/7907a119-c5ad-55d7-8790-a0d7201be462",
+            "byline": "By Jan Hoffman",
+            "item_type": "Article",
+            "updated_date": "2021-06-26T14:13:09-04:00",
+            "created_date": "2021-06-26T12:07:08-04:00",
+            "published_date": "2021-06-26T12:07:08-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "your-feed-science",
+                "Children and Childhood",
+                "Vaccination and Immunization",
+                "Parenting",
+                "Coronavirus (2019-nCoV)",
+                "Medicine and Health",
+                "your-feed-healthcare"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/25/science/00virus-vax-teens1/merlin_189648114_56e624d1-de8b-4479-b955-68eddfcd7a06-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "When the mother of this Florida teenager blocked her from getting the Covid vaccine, the 15-year-old was uninvited to a friend’s party and continues to feel excluded from many social events because she remains unvaccinated.",
+                    "copyright": "Maria Alejandra Cardona for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/25/science/00virus-vax-teens1/00virus-vax-teens1-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "When the mother of this Florida teenager blocked her from getting the Covid vaccine, the 15-year-old was uninvited to a friend’s party and continues to feel excluded from many social events because she remains unvaccinated.",
+                    "copyright": "Maria Alejandra Cardona for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/25/science/00virus-vax-teens1/00virus-vax-teens1-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "When the mother of this Florida teenager blocked her from getting the Covid vaccine, the 15-year-old was uninvited to a friend’s party and continues to feel excluded from many social events because she remains unvaccinated.",
+                    "copyright": "Maria Alejandra Cardona for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/25/science/00virus-vax-teens1/merlin_189648114_56e624d1-de8b-4479-b955-68eddfcd7a06-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "When the mother of this Florida teenager blocked her from getting the Covid vaccine, the 15-year-old was uninvited to a friend’s party and continues to feel excluded from many social events because she remains unvaccinated.",
+                    "copyright": "Maria Alejandra Cardona for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/25/science/00virus-vax-teens1/merlin_189648114_56e624d1-de8b-4479-b955-68eddfcd7a06-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "When the mother of this Florida teenager blocked her from getting the Covid vaccine, the 15-year-old was uninvited to a friend’s party and continues to feel excluded from many social events because she remains unvaccinated.",
+                    "copyright": "Maria Alejandra Cardona for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/2T07poJ"
+        },
+        {
+            "section": "world",
+            "subsection": "americas",
+            "title": "1+1=4? Latin America Confronts a Pandemic Education Crisis.",
+            "abstract": "With economies reeling and millions cut off from the classroom, Latin America’s students are leaving school in alarming numbers, experts say.",
+            "url": "https://www.nytimes.com/2021/06/26/world/americas/latin-america-pandemic-education.html",
+            "uri": "nyt://article/ae6d25e2-a6c4-5fac-a52a-d41007b9b33b",
+            "byline": "By Julie Turkewitz and Federico Rios",
+            "item_type": "Article",
+            "updated_date": "2021-06-26T12:56:32-04:00",
+            "created_date": "2021-06-26T05:00:21-04:00",
+            "published_date": "2021-06-26T05:00:21-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Education (K-12)",
+                "Coronavirus (2019-nCoV)"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [
+                "Colombia",
+                "Ecuador",
+                "Latin America",
+                "Brazil"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/27/world/27latam-education-p1/26latam-education-top-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Gloria V&aacute;squez with her 8-year-old daughter, Ximena, at their home in Soacha, Colombia.",
+                    "copyright": ""
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/27/world/27latam-education-p1/26latam-education-top-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Gloria V&aacute;squez with her 8-year-old daughter, Ximena, at their home in Soacha, Colombia.",
+                    "copyright": ""
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/27/world/27latam-education-p1/26latam-education-top-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Gloria V&aacute;squez with her 8-year-old daughter, Ximena, at their home in Soacha, Colombia.",
+                    "copyright": ""
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/27/world/27latam-education-p1/26latam-education-top-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Gloria V&aacute;squez with her 8-year-old daughter, Ximena, at their home in Soacha, Colombia.",
+                    "copyright": ""
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2021/06/27/world/27latam-education-p1/26latam-education-top-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Gloria V&aacute;squez with her 8-year-old daughter, Ximena, at their home in Soacha, Colombia.",
+                    "copyright": ""
+                }
+            ],
+            "short_url": "https://nyti.ms/3djcbEK"
+        }
+    ]
+}
